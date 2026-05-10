@@ -31,8 +31,8 @@ def main():
     mood = random.choice(MOODS)
     width = max(len(line) for line in DRAGON.splitlines())
     bubble = f"  < {mood} >"
-    print(bubble)
-    print(DRAGON)
+    print(bubble, file=sys.stderr)
+    print(DRAGON, file=sys.stderr)
 
 if __name__ == "__main__":
     main()
