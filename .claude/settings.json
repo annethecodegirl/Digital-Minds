@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 .claude/dragon.py"
+            "command": "python .claude/dragon.py"
           }
         ]
       }
